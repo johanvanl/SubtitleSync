@@ -12,6 +12,6 @@ Once you are happy, remember the numeric value displayed at the top right corner
 
 Ensure that there is only 1 subtitles (.srt) file in your working directory.
 
-Running the script will prompt you for the time delta we obtained above, add it here, including the negative ('-') if needed.
+Running the script ('SubtitleSync.py') will prompt you for the time delta we obtained above, add it here, including the negative ('-') if needed.
 
 Tested in Python 3.
