@@ -28,7 +28,7 @@ def readFileToList(fileName, directory='.'):
     '''
     logging.debug('Reading {} line by line into list'.format(fileName))
     lines = []
-    with open(os.path.join(directory, fileName), encoding='utf-8') as f:
+    with open(os.path.join(directory, fileName), encoding='utf-8', errors='replace') as f:
         for line in f:
             lines.append(line.strip())
     return lines
